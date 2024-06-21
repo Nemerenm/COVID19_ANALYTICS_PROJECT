@@ -25,18 +25,11 @@
 
 The primary dataset utilized for this analysis is sourced from the "COVID19_data.xlx" file, comprising comprehensive data essential for the COVID-19 analytics project.
 - **Country**: Name of the country or territory.
-- **WHO Region**: World Health Organization region classification.
-- **Cases - cumulative total**: Total number of reported COVID-19 cases.
-- **Cases - cumulative total per 100000 population**: Total number of reported COVID-19 cases per 100,000 population.
-- **Cases - newly reported in last 7 days**: Number of new COVID-19 cases reported in the last 7 days.
-- **Cases - newly reported in last 7 days per 100000 population**: Number of new COVID-19 cases reported in the last 7 days per 100,000 population.
-- **Cases - newly reported in last 24 hours**: Number of new COVID-19 cases reported in the last 24 hours.
-- **Deaths - cumulative total**: Total number of reported COVID-19 deaths.
-- **Deaths - cumulative total per 100000 population**: Total number of reported COVID-19 deaths per 100,000 population.
-- **Deaths - newly reported in last 7 days**: Number of new COVID-19 deaths reported in the last 7 days.
-- **Deaths - newly reported in last 7 days per 100000 population**: Number of new COVID-19 deaths reported in the last 7 days per 100,000 population.
-- **Deaths - newly reported in last 24 hours**: Number of new COVID-19 deaths reported in the last 24 hours.
-
+- **WHO Region**: Classification by World Health Organization region.
+- **Cases**: Includes cumulative totals, new cases in the last 7 days and 24 hours, and cases per 100,000 population.
+- **Deaths**: Includes cumulative totals, new deaths in the last 7 days and 24 hours, and deaths per 100,000 population.
+This dataset provides a comprehensive view of COVID-19 cases and deaths across various countries and regions, facilitating a thorough analysis of the pandemic's impact.
+  
 ## Data Preparation and Data Cleaning Process in Power Query
 
 - **Data Load**: Load the dataset into Power Query.
@@ -66,28 +59,30 @@ The primary dataset utilized for this analysis is sourced from the "COVID19_data
 
 ## Visualization in Power BI
 
-- **Tree Map**: Top 10 number of cases by country.
-- **Line and Column Chart**: Cases vs Deaths by region.
-- **Bar Chart**: Case Fatality Rate by WHO region.
-- **Map**: Cumulative cases and deaths in countries.
-- **Bar chart**: Top 5 number of deaths by countries
-
+- After completing data cleaning and analysis, the results were exported to XLX file, these XLX file served as the basis for creating a visually appealing dashboard in Power BI. 
+- The purpose of this Power BI dashboard was to provide a better understanding of the outcomes derived from the data analysis.
+- The Power BI dashboard created is interactive, allowing users to explore the data dynamically.
+  
 ## Findings
 
 ### Global overview
-- **Total global cases**: 
-- **Total global deaths**:
+- **Total global cases**: 562.7M
+- **Total global deaths**: 6.4M
   
-### Top 10 Countries by Cases and Deaths
+### Top 5 Countries by Cases and Deaths
 - **Highest cases:**
-  - USA: 88.5M
+  - United States of America: 88.5M
   - India: 43.8M
   - Brazil: 33.3M
+  - France: 32.2M
+  - Germany: 30M
     
 - **Highest deaths:**
-  - USA: 1.01M
+  - United States of America: 1.01M
   - Brazil: 675K
   - India: 526K
+  - Russian Federation: 382K
+  - Mexico: 327K
 
 ### Regional Insights
 - **Americas:** Highest total cases and deaths
@@ -96,17 +91,14 @@ The primary dataset utilized for this analysis is sourced from the "COVID19_data
 
 ### Case Fatality Rates (CFR)
 - **Notable CFRs:**
-  - USA: 1.15%
-  - India: 1.20%
-  - Brazil: 2.03%
-  - Mexico: 5.06%
-  - Peru: 5.69%
   - Yemen: 18.14%
+  - Sudan: 7.88%
+  - Peru: 5.69%
+  - Syrian: 5.62%
+  - Mexico: 5.06%  
 
-### Recent Trends
-- **Top new cases (last 24 hours):** [Country Name], [Number of new cases]
-- **Top new deaths (last 24 hours):** [Country Name], [Number of new deaths]
-
+## Conclusion
+This project provides a comprehensive analysis of COVID-19 data across various regions.By using the necessary tools for data preparation and analysis, we were able to derive meaningful insights through calculated metrics and detailed visualizations. These findings are crucial for understanding the pandemic's impact and supporting informed public health decisions.
  
 
 
