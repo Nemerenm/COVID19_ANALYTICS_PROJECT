@@ -23,7 +23,7 @@
 
 ## Dataset Description
 
-The primary dataset utilized for this analysis is sourced from the "COVID19_data.xlx" file, comprising comprehensive data essential for the COVID-19 analytics project.
+The primary dataset utilized for this analysis is sourced from the "COVID19_data.xlx" file, containing 12 Columns and 238 rows, comprising comprehensive data essential for the COVID-19 analytics project. 
 - **Country**: Name of the country or territory.
 - **WHO Region**: Classification by World Health Organization region.
 - **Cases**: Includes cumulative totals, new cases in the last 7 days and 24 hours, and cases per 100,000 population.
